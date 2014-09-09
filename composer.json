@@ -1,0 +1,29 @@
+{
+	"name": "kappa/google",
+	"description": "Google api integration into Nette",
+	"keywords": ["Google", "api", "Nette"],
+	"homepage": "https://github.com/Kappa-org/Google",
+	"license": "BSD-3-Clause",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Ondřej Záruba",
+			"homepage": "http://zaruba-ondrej.cz"
+		}
+	],
+	"support": {
+		"email": "zarubaondra@gmail.com",
+		"issues": "https://github.com/Kappa-org/Google/issues"
+	},
+	"require": {
+		"google/apiclient": "~1.0.4@beta"
+	},
+	"autoload": {
+		"psr-0": {
+			"Kappa": "src/"
+		},
+		"classmap": [
+			"src/Kappa/Google/exceptions.php"
+		]
+	}
+}
