@@ -43,7 +43,7 @@ class Authenticator extends Object
 	public function authenticateServiceAccount(\Google_Client $client)
 	{
 		$token = $this->tokenStorage->getAccessToken($this->configurator->email);
-		if ($token === null) {
+		if ($token === null || json_decode($token) === null) {
 			$token = $this->createServiceAccountToken($client);
 			$this->tokenStorage->setAccessToken($this->configurator->email, $token);
 		}
