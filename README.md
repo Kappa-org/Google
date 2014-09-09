@@ -43,4 +43,7 @@ class BasePresenter  extends Presenter
 		dump($this->serviceAccount->getClient()) // Returns logged client
 		die();
 	}
+
+	// ...
+}
 ```
