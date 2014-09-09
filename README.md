@@ -1,6 +1,8 @@
 # Kappa\Google
 
-Google api integration into [Nette Framework](http://nette.org) for service account
+Integration [Google API](https://code.google.com/apis/explorer/) into
+[Nette Framework](http://nette.org/) for better work with
+[service accounts](https://developers.google.com/accounts/docs/OAuth2ServiceAccount)
 
 ## Requirements:
 * [Google api client](https://github.com/google/google-api-php-client)
