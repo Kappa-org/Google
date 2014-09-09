@@ -9,3 +9,14 @@
  */
 
 namespace Kappa\Google;
+
+/**
+ * Class InvalidArgumentException
+ *
+ * @package Kappa\Google
+ * @author Ondřej Záruba <http://zaruba-ondrej.cz>
+ */
+class InvalidArgumentException extends \LogicException
+{
+
+}
