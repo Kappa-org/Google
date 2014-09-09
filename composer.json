@@ -16,6 +16,7 @@
 		"issues": "https://github.com/Kappa-org/Google/issues"
 	},
 	"require": {
+		"nette/di": "~2.2",
 		"google/apiclient": "~1.0.4@beta"
 	},
 	"autoload": {
